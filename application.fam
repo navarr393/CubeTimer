@@ -1,0 +1,14 @@
+# For details & more options, see documentation/AppManifests.md in firmware repo
+
+App(
+    appid="cube_timer",  # Must be unique
+    name="Cube Timer",  # Displayed in menus
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="cube_timer_app",
+    stack_size=2 * 1024,
+    fap_category="Tools",
+    fap_version="0.1",
+    fap_icon="cube_timer.png",  # 10x10 1-bit PNG
+    fap_description="3x3 scrambler and speedcubing timer with WCA inspection",
+    fap_icon_assets="images",  # Image assets to compile for this application
+)
