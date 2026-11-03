@@ -10,5 +10,7 @@ App(
     fap_version="0.1",
     fap_icon="cube_timer.png",  # 10x10 1-bit PNG
     fap_description="3x3 scrambler and speedcubing timer with WCA inspection",
+    fap_author="navarr393",
+    fap_weburl="https://github.com/navarr393/CubeTimer",
     fap_icon_assets="images",  # Image assets to compile for this application
 )

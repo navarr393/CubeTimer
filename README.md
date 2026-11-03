@@ -2,6 +2,14 @@
 
 A speedcubing timer and 3x3 scrambler for the Flipper Zero. It generates a scramble, runs a WCA-style 15-second inspection, times your solve with the center button, and tracks your session stats including ao5 and ao12.
 
+<p>
+  <img src="screenshots/1.png" alt="Scramble screen" width="256">
+  <img src="screenshots/2.png" alt="Inspection countdown" width="256">
+  <img src="screenshots/3.png" alt="Solve timer running" width="256">
+  <img src="screenshots/4.png" alt="Scramble screen with averages" width="256">
+  <img src="screenshots/5.png" alt="Session stats" width="256">
+</p>
+
 ## Features
 
 - **3x3 scrambles**: 20-move scrambles using the Flipper's hardware random number generator
@@ -107,6 +115,9 @@ application.fam         App manifest (name, category, icon, version)
 cube_timer.c            All app code: scrambler, timer, inspection, stats, UI
 cube_timer.png          10x10 menu icon
 images/                 Image assets compiled into the app
+screenshots/            qFlipper screenshots (used here and in the Apps Catalog)
+docs/changelog.md       Version history (used by the Apps Catalog)
+docs/catalog.md         App description for the Apps Catalog (limited Markdown)
 .github/workflows/      CI build for release and dev SDK channels
 ```
 
